@@ -1,0 +1,56 @@
+/*--HEADER*/
+
+.navbar{
+
+	margin-bottom:0;
+}
+.jumbotron	{
+	background-color: #456545;
+	color:white;
+	font-family: helvetica;
+}
+
+.jumbotron .titulo-blog{
+
+	font-size: 3em;
+}
+
+/* ---post---*/
+
+.main{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+.post{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999;
+
+}
+.post .post-title a{
+	color:#333;
+}
+.post .contenido{
+	padding :20px;
+}
+
+.post img{
+	padding: 10px;
+}
+
+footer div{
+	background-color:  #456545;
+	color:white;
+	font-family: helvetica;
+	padding: 10px;
+
+}
+
+/*--MEDIAU QUERI3-->
+*/
+@media screen and(max-width: 768px){
+	.post .thumb{
+		width:100%;
+		margin-bottom:20px;
+		margin-right: 0;	}
+}
