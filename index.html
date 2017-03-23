@@ -15,7 +15,7 @@
 
 <!--HEADER-->
 		<header>
-			<nav class="navbar  navbar-static-top" role="navigation">
+			<nav id="navbar" class="navbar  navbar-static-top" role="navigation">
 				<div class="container">
 					<div class="navbar-header">
 					<button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#navegacion-EM"> <!--creacion de boton para desplegar first-mobile-->
@@ -28,31 +28,96 @@
 					</div>
 
 					<div class="collapse navbar-collapse" id="navegacion-EM">   <!--conexion con el navbar-toogle-->
-						<ul class="nav navbar-nav navbar-right ">  <!--menu de navegacion en una sola linea-->
-							<li><a href="#">contacto</a></li>
-							<li>
-								<a  class="dropdown-toggle" data-toggle="dropdown" href="#">servicios <!--boton desplegable-->
+						<ul  class="nav navbar-nav navbar-right  ">  <!--menu de navegacion en una sola linea-->
+							<li  ><a class="options" href="#">contacto</a></li>
+							<li >
+								<a  class="dropdown-toggle options" data-toggle="dropdown" href="#">servicios <!--boton desplegable-->
 								</a>  
 								<ul class="dropdown-menu" role=menu>  <!--menu secundario -->
 									<li><a href="#">servicios</a></li><li><a href="#">servicios</a></li>
 									<li><a href="#">servicios</a></li>
 								</ul>
 							</li>
-							<li><a href="#">contacto</a></li>
+							<li ><a class="options" class="op" href="#">contacto</a></li>
 						</ul>
 					</div>
 				</div>
 			</nav>
-			<section>
-				
-			</section>
+						<!--carrousel-->
+			       <div class="container">
+					<section id="carrousel-presentacion" class=" carousel slide  " data-ride="carousel">
+					<!-- indicadores
+							<ol class="carousel-indicators">
+								<li data-target="#carrousel-presentacion" data-slide-to="0" class="active"></li>
+								<li data-target="#carrousel-presentacion" data-slide-to="1" ></li>
+								<li data-target="#carrousel-presentacion" data-slide-to="2" ></li>
+								
+							</ol>
+							-->
+
+			        <!--imagenes-->
+			                 <div class="carousel-inner " role="listbox">
+			                 	<div class="item active ">
+			                 		<img src=" http://www.placecage.com/1000/500" alt="cage">
+			                 		
+			                 	</div>
+			                 	<div class="item   ">
+			                 		<img src=" http://www.placecage.com/1000/500" alt="cage">
+			                 		
+			                 	</div>
+			                 	<div class="item  ">
+			                 		<img src=" http://www.placecage.com/1000/500" alt ="cage">
+			                 		
+			                 	</div>
+			                	
+			                </div>
+						
+						
+					</section>
+					</div>
+			
 					
 				
 		</header>
 <!--HEADER-->
 
 <!--SECTIONMAIN-->
-		<section></section>
+		<section class="container" id="mainContent">
+			<div class="row">
+				<div class="col-sm-12 ">
+				  <article class="col-sm-3">
+				  	<h2>Nuestro Equipo</h2>
+				  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				  	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				  	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				  	</p>
+				  	<button type="button" class="btn btn-default">Más</button>
+				  </article>
+				   <article class="col-sm-3  ">
+				  	<h2>servicios</h2>
+				  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				  	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				  	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				  	</p>
+				  	<button type="button" class="btn btn-default">Más</button>
+				  </article>
+					
+					<article class="col-sm-3 ">
+					<h2>contactanos</h2>
+				  	
+				  	
+				  </article>
+					
+					
+				</div>
+				<div class=col-sm-12>
+					
+				</div>
+				
+			</div>
+			
+
+		</section>
 <!--SECTIONMAIN-->
 
 <!--FOOTER-->

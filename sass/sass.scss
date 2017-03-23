@@ -16,6 +16,57 @@ $FONDO:#2a2b2c;
 @import url('https://fonts.googleapis.com/css?family=Roboto:300i,400,400i,700');
 $FONTPP:'Roboto', sans-serif;
 /*------------------*/
+.container{
+
+
+}
+/*--------barnav-----*/
+
+
+
+#navbar{
+	background-color: $FONDO;
+	
+		.options:hover{
+			background-color:$FONDO;
+			
+		}
+	
+}
+
+/*-------- carousel----*/
+
+
+#carrousel-presentacion{
+	.carousel-inner div img{
+		
+	    width: 100%;
+
+	}
+}
+
+/*--------main content-----*/
+#mainContent{
+	margin-top: 20px;
+}
+
+#mainContent div div {
+
+	display:flex;
+	flex-flow: row  wrap;
+	justify-content: space-between;
+	article{
+		border:1px solid red;
+
+	}
+}
+
+@media only screen and(max-width: 768px){
+	#mainContent div div {
+
+	display:inline;
+   }
+}
 
 
 
